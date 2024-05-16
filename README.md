@@ -4,7 +4,7 @@
 
 # Example of use
 
-const Swagger = require('./node_modulesfake/index.js')
+const Swagger = require('swagger-made-easy')
 
 Swagger(['http://localhost:3100/exemple', 'http://localhost:3100/'], (err, swg)=>{
     if(err)console.error(err)
