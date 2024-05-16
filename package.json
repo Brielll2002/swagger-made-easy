@@ -1,0 +1,17 @@
+{
+  "name": "swagger-made-easy",
+  "version": "1.0.0",
+  "main": "swagger-made-easy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
