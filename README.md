@@ -1,10 +1,10 @@
 # Install Lib
 
-- ```npm i swagger-made-easy```
+- ```npm i @brielll2002/swagger-made-easy```
 
 # Example of use
 
-const Swagger = require('swagger-made-easy')
+const Swagger = require('@brielll2002/swagger-made-easy')
 
 Swagger(['http://localhost:3100/exemple', 'http://localhost:3100/'], (err, swg)=>{
     if(err)console.error(err)
